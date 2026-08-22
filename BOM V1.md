@@ -15,7 +15,6 @@ This helps support ongoing development of this project — thank you!
 | Stepper Driver | 1 | *(e.g. ULN2003 / A4988 / DRV8825)* | [Link]() | [Link]() |
 | Micro USB Cable + Power Supply | 1 | *(voltage/amperage needed)* | [Link]() | [Link]() |
 | Jumper Wires | 1 pack | *(M-M, M-F as needed)* | [Link]() | [Link]() |
-| *(Limit switch / sensor, if used)* | | | [Link]() | [Link]() |
 
 ## Hardware / Fasteners
 
