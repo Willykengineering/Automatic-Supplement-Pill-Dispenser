@@ -95,4 +95,4 @@ https://makerworld.com/en/models/1323881-supplement-dispenser-pill-dispenser#pro
 
 ## Contributing
 
-Issues and pull requests welcome — this is an early, actively developed project and feedback is appreciated.
+Issues and pull requests welcome — this is an early, actively developed project and feedback is appreciated. This is one of my first projects so some of the code was made with the assistance of AI.
