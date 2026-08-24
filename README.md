@@ -35,12 +35,18 @@ Full bill of materials with links to where I sourced each part is located in the
 
 ### Wiring
 
+![ESP32 to ULN2003 wiring diagram](docs/wiring-diagram.svg)
+
 | ULN2003 pin | ESP32 pin |
 |-------------|-----------|
 | IN1         | 19        |
 | IN2         | 18        |
 | IN3         | 5         |
 | IN4         | 17        |
+| + (power)   | 5V        |
+| - (ground)  | GND       |
+
+Also connect the ULN2003's 4-pin motor cable to the 28BYJ-48 stepper motor. Note that in firmware the driver is wired as `IN1, IN3, IN2, IN4` (the order `AccelStepper` needs for half-step mode) — that's the physical wiring order above, it just isn't sequential IN1→IN4.
 
 ## 3D Printing
 
@@ -53,23 +59,25 @@ STL files are in the `/stl` folder. *(Add recommended print settings: material, 
 ## Firmware / Setup
 
 1. Install [PlatformIO](https://platformio.org/) (VS Code extension or CLI).
-2. Copy `include/secrets.h.example` to `include/secrets.h` and fill in your Wi-Fi credentials:
+2. Wire the ESP32 to the ULN2003 driver as shown in [Wiring](#wiring) above, and connect the ULN2003's motor cable to the 28BYJ-48 stepper.
+3. Copy `include/secrets.h.example` to `include/secrets.h` and fill in your Wi-Fi credentials:
 
    ```cpp
    const char* WIFI_SSID = "your-wifi-ssid";
    const char* WIFI_PASSWORD = "your-wifi-password";
    ```
 
-   `secrets.h` is git-ignored and will not be committed.
+   `secrets.h` is git-ignored and will not be committed. Note: the ESP32 only supports **2.4GHz** Wi-Fi networks, not 5GHz.
 
-3. Build and upload:
+4. The firmware defaults to the Dallas, TX timezone (`gmtOffset_sec` / `daylightOffset_sec` in `src/main.cpp`). If you're elsewhere, update those values before flashing.
+5. Build and upload:
 
    ```bash
    pio run --target upload
    ```
 
-4. Open the Serial Monitor (115200 baud) to see the ESP32's IP address once it connects to Wi-Fi.
-5. Open that IP address in any browser to control the dispenser — no app, no account. From there you can manually rotate the carousel, correct the current day, and set the daily auto-rotation time.
+6. Open the Serial Monitor (115200 baud) to see the ESP32's IP address once it connects to Wi-Fi.
+7. Open that IP address in any browser to control the dispenser — no app, no account. From there you can manually rotate the carousel, correct the current day, and set the daily auto-rotation time.
 
 ## How It Works
 
