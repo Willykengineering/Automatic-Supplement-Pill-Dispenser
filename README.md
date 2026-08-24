@@ -24,7 +24,7 @@ This repo covers the V1 design (USB powered). A V2 battery-powered version is cu
 
 Full bill of materials with links to where I sourced each part is located in the [BOM V1](BOM%20V1.md) file.
 
-### Wiring
+## Wiring
 
 ![ESP32 to ULN2003 wiring diagram](docs/wiring-diagram.svg)
 
