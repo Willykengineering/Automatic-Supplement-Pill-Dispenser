@@ -31,7 +31,7 @@ Files can be found on my maker world link:
 
 | Tool | Notes |
 |---|---|
-| Small Phillips screwdriver | |
+| Small Hex screwdriver or Allen key | |
 | *(Threaded insert installation tool / soldering iron tip)* | A threaded insert press will make this easier |
 
 **Notes on sourcing:** Part links point to the specific listings I used at the time of writing — always double-check specs (voltage, dimensions, pin count) before ordering, 
