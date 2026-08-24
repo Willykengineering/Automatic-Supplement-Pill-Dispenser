@@ -11,7 +11,7 @@ This helps support ongoing development of this project — thank you!
 | Part | Qty | Specs / Notes | Amazon | AliExpress |
 |---|---|---|---|---|
 | ESP32 Dev Board | 1 | *(ESP32-WROOM-32, Micro USB)* | [Link](https://amzn.to/4qD7GcC) | [Link]() |
-| Stepper Motor + Driver| 1 | *(28BYJ-48 + ULN2003)* | [Link](https://amzn.to/4xhhprt) | [Link]() |
+| Stepper Motor + Driver| 1 | *(28BYJ-48 + ULN2003)(try to get the driver that is long and skinny not square shaped, it will fit in the base easier)* | [Link](https://amzn.to/4xhhprt) | [Link]() |
 | Micro USB Cable | 1 | *(used for uploading code and powering everything)* | [Link](https://amzn.to/4gq0Him) | [Link]() |
 | Female-Female Dupont Wires | 1 pack | *(Any type of wire that will fit around the ESP-32 pins should work)* | [Link](https://amzn.to/4gytQIp) | [Link]() |
 
