@@ -10,18 +10,17 @@ This helps support ongoing development of this project — thank you!
 
 | Part | Qty | Specs / Notes | Amazon | AliExpress |
 |---|---|---|---|---|
-| ESP32 Dev Board | 1 | *(e.g. ESP32-WROOM-32, USB-C)* | [Link]() | [Link]() |
-| Stepper Motor | 1 | *(e.g. 28BYJ-48 / NEMA 17 — specify)* | [Link]() | [Link]() |
-| Stepper Driver | 1 | *(e.g. ULN2003 / A4988 / DRV8825)* | [Link]() | [Link]() |
-| Micro USB Cable + Power Supply | 1 | *(voltage/amperage needed)* | [Link]() | [Link]() |
-| Jumper Wires | 1 pack | *(M-M, M-F as needed)* | [Link]() | [Link]() |
+| ESP32 Dev Board | 1 | *(ESP32-WROOM-32, Micro USB)* | [Link](https://amzn.to/4qD7GcC) | [Link]() |
+| Stepper Motor + Driver| 1 | *(28BYJ-48 + ULN2003)* | [Link](https://amzn.to/4xhhprt) | [Link]() |
+| Micro USB Cable | 1 | *(voltage/amperage needed)* | [Link](https://amzn.to/4gq0Him) | [Link]() |
+| Female-Female Dupont Wires | 1 pack | *(Any type of wire that will fit around the ESP-32 pins should work)* | [Link](https://amzn.to/4gytQIp) | [Link]() |
 
 ## Hardware / Fasteners
 
 | Part | Qty | Specs / Notes | Amazon | AliExpress |
 |---|---|---|---|---|
-| Threaded Inserts | *(qty)* | *(e.g. M3 x 5mm)* | [Link]() | [Link]() |
-| Screws | *(qty)* | *(size/length)* | [Link]() | [Link]() |
+| Threaded Inserts | *(8)* | *(M3x5x5)* | [Link](https://amzn.to/4gseFQR) | [Link]() |   
+| M3 Screws | *(8)* | *(M3x10mm short profile head, this is the only link I could find but ideally anything with a head thinner than 2mm should work)* | [Link](https://amzn.to/4xd6WNH) | [Link]() |
 
 
 ## 3D Printed Parts
