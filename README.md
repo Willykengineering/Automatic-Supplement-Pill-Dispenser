@@ -31,7 +31,7 @@ This repo covers the V1 design (USB powered). A V2 battery-powered version is cu
 | Threaded inserts | *(add size, e.g. M3)* |
 | Misc hardware | Screws, wiring — *(add full BOM)* |
 
-Full bill of materials with links to where I sourced each part: *(add BOM link/table)*
+Full bill of materials with links to where I sourced each part is loacted in the BOM V1 file
 
 ## 3D Printing
 
