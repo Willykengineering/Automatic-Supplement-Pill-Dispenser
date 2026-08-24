@@ -32,7 +32,7 @@ Files can be found on my maker world link:
 | Tool | Notes |
 |---|---|
 | Small Hex screwdriver or Allen key | |
-| *(Threaded insert installation tool / soldering iron tip)* | A threaded insert press will make this easier |
+| Soldering iron for threaded inserts | A threaded insert press will make this easier |
 
 **Notes on sourcing:** Part links point to the specific listings I used at the time of writing — always double-check specs (voltage, dimensions, pin count) before ordering, 
 since third-party listings can change or get delisted. If a link is dead, search the part name/spec in the "Notes" column as a fallback.
