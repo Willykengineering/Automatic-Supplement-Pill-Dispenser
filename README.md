@@ -22,15 +22,6 @@ This repo covers the V1 design (USB powered). A V2 battery-powered version is cu
 
 ## Hardware
 
-| Component | Notes |
-|---|---|
-| ESP32 dev board | Any standard variant should work |
-| Stepper motor | 28BYJ-48 |
-| Stepper driver | ULN2003 |
-| 3D printed parts | STL files in `/stl` |
-| Threaded inserts | *(add size, e.g. M3)* |
-| Misc hardware | Screws, wiring — *(add full BOM)* |
-
 Full bill of materials with links to where I sourced each part is located in the [BOM V1](BOM%20V1.md) file.
 
 ### Wiring
