@@ -5,8 +5,9 @@
 A. Print out all parts.
 
 B. Install threaded inserts.
-   - _(pictures)_
+   - 
    - Note: not every single-hole location on the perimeter needs a threaded insert — 4 is enough.
+   - Using a dedicated insert press will make this easier 
 
 ## 2. Mechanical assembly
 
