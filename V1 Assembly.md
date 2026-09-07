@@ -2,22 +2,25 @@
 
 ## 1. Print and prepare parts
 
-1. Print out all parts.
-2. Install threaded inserts.
+A. Print out all parts.
+
+B. Install threaded inserts.
    - _(pictures)_
    - Note: not every single-hole location on the perimeter needs a threaded insert — 4 is enough.
 
 ## 2. Mechanical assembly
 
-3. Mount the motor by driving the side screws into the threaded inserts.
+A. Mount the motor by driving the side screws into the threaded inserts.
    - _(picture)_
-4. Attach the carousel.
+
+B. Attach the carousel.
    - Note: it should sit flush with the base, but may need a little force to seat fully.
 
 ## 3. Wiring
 
-5. Connect the stepper motor to the driver.
-6. Connect the driver pins to the ESP32 pins.
+A. Connect the stepper motor to the driver.
+
+B. Connect the driver pins to the ESP32 pins.
 
    ![ESP32 to ULN2003 wiring diagram](docs/wiring-diagram.svg)
 
@@ -34,14 +37,17 @@
 
 ## 4. Firmware
 
-7. Upload the code to the ESP32.
+A. Upload the code to the ESP32.
    - _(detailed upload instructions)_
    - _(how to enter your WiFi password)_
-8. Verify the upload worked by confirming the web interface loads.
+
+B. Verify the upload worked by confirming the web interface loads.
    - Set the correct date and time.
 
 ## 5. Verification and final assembly
 
-9. Verify the wiring is correct by rotating the motor from the web interface.
-10. Place all electronics in the base and screw on the bottom cover.
-11. Plug the device in at its permanent location and add supplements to the dispenser.
+A. Verify the wiring is correct by rotating the motor from the web interface.
+
+B. Place all electronics in the base and screw on the bottom cover.
+
+C. Plug the device in at its permanent location and add supplements to the dispenser.
