@@ -26,18 +26,7 @@ Full bill of materials with links to where I sourced each part is located in the
 
 ## Wiring
 
-![ESP32 to ULN2003 wiring diagram](docs/wiring-diagram.svg)
-
-| ULN2003 pin | ESP32 pin |
-|-------------|-----------|
-| IN1         | 19        |
-| IN2         | 18        |
-| IN3         | 5         |
-| IN4         | 17        |
-| + (power)   | 5V        |
-| - (ground)  | GND       |
-
-Also connect the ULN2003's 4-pin motor cable to the 28BYJ-48 stepper motor. Note that in firmware the driver is wired as `IN1, IN3, IN2, IN4` (the order `AccelStepper` needs for half-step mode) — that's the physical wiring order above, it just isn't sequential IN1→IN4.
+See the wiring diagram and pin table in the [V1 Assembly](V1%20Assembly.md#3-wiring) guide.
 
 ## 3D Printing
 
@@ -45,7 +34,7 @@ STL files are in the `/stl` folder. *(Add recommended print settings: material, 
 
 ## Assembly
 
-*(Add step-by-step assembly instructions or link to a build guide/photos.)*
+Step-by-step build instructions are in the [V1 Assembly](V1%20Assembly.md) guide.
 
 ## Firmware / Setup
 
