@@ -5,14 +5,17 @@
 A. Print out all parts.
 
 B. Install threaded inserts.
-   - 
+
+   ![Base with threaded inserts installed](docs/base-threaded-inserts.jpeg)
+
    - Note: not every single-hole location on the perimeter needs a threaded insert — 4 is enough.
-   - Using a dedicated insert press will make this easier 
+   - Using a dedicated insert press will make this easier.
 
 ## 2. Mechanical assembly
 
 A. Mount the motor by driving the side screws into the threaded inserts.
-   - _(picture)_
+
+   ![Stepper motor mounted to the base](docs/motor-mounted.jpeg)
 
 B. Attach the carousel.
    - Note: it should sit flush with the base, but may need a little force to seat fully.
@@ -50,5 +53,7 @@ B. Verify the upload worked by confirming the web interface loads.
 A. Verify the wiring is correct by rotating the motor from the web interface.
 
 B. Place all electronics in the base and screw on the bottom cover.
+
+   ![All electronics packed into the base](docs/electronics-in-base.jpeg)
 
 C. Plug the device in at its permanent location and add supplements to the dispenser.
