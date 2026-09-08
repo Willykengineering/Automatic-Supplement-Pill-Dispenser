@@ -30,7 +30,7 @@ See the wiring diagram and pin table in the [V1 Assembly](V1%20Assembly.md#3-wir
 
 ## 3D Printing
 
-Check out the maker world page for the files
+Check out the maker world page for the files: https://makerworld.com/en/models/3277204-automatic-supplement-pill-dispenser#profileId-3716710
 
 ## Assembly
 
