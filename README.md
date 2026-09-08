@@ -30,7 +30,7 @@ See the wiring diagram and pin table in the [V1 Assembly](V1%20Assembly.md#3-wir
 
 ## 3D Printing
 
-STL files are in the `/stl` folder. *(Add recommended print settings: material, layer height, infill, supports needed, print time/cost.)*
+Check out the maker world page for the files
 
 ## Assembly
 
