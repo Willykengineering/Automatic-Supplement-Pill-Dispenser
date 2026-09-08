@@ -4,7 +4,7 @@
 
 A. Print out all parts.
 
-B. Install threaded inserts.
+B. Install threaded inserts into base.
 
    ![Base with threaded inserts installed](docs/base-threaded-inserts.jpeg)
 
